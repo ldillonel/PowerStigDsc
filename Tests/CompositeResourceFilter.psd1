@@ -2,6 +2,8 @@
 @{
     Browser          = @("*IE*")
 
+    DotNetFramework  = @("*DotNet*")
+
     SqlServer        = @("*Instance*", "*Database*")
 
     WindowsFirewall  = @("*FW*")
@@ -10,3 +12,4 @@
 
     WindowsServer    = @("*DC*", "*MS*")
 }
+
